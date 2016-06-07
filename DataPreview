@@ -1,4 +1,5 @@
-#Data Preview of Transaction and Customer
+#DataPreview 
+
 
 select * from transaction
 
