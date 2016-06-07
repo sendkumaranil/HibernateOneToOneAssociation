@@ -8,6 +8,7 @@ Transaction(Parent) <-----------------------#primary key join column(txn_id)----
 
 RDBMS (Mysql) Tables Script:
 ----------------------------
+#Transaction
 CREATE TABLE `Transaction` (
   `txn_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `txn_date` date NOT NULL,
@@ -15,6 +16,7 @@ CREATE TABLE `Transaction` (
   PRIMARY KEY (`txn_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
+#Customer
 CREATE TABLE `Customer` (
   `txn_id` int(11) unsigned NOT NULL,
   `cust_name` varchar(20) NOT NULL DEFAULT '',
