@@ -1,0 +1,2 @@
+# HibernateOneToOneAssociation
+Using Annotation
