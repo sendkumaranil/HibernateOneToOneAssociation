@@ -1,0 +1,22 @@
+#Data Preview of Transaction and Customer
+
+select * from transaction
+
+txn_id, txn_date, txn_total
+---------------------------
+'16', '2016-05-25', '10000'
+'18', '2016-05-25', '10000'
+'19', '2016-05-25', '25000'
+'20', '2016-05-25', '35000'
+'21', '2016-05-25', '45000'
+
+
+select * from customer
+
+txn_id, cust_name, cust_email, cust_address
+---------------------------------------------
+'16', 'Anil Kumar', 'anilkumar@gmail.com', 'Silk board, bangalore'
+'18', 'Gaurav Chadha', 'gaurav.c@gmail.com', 'Bommanhhalli, bangalore'
+'19', 'Avinash Singh', 'singh.avi@gmail.com', 'HAL BDA Complex, bangalore'
+'20', 'Anil Kumar', 'anil.kumar@gmail.com', 'BTM Layout 2nd Stage, Bangalore'
+'21', 'Anil Kumar', 'anil.kumar@gmail.com', 'BTM Layout 2nd Stage, Bangalore'
